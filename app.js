@@ -5,4 +5,5 @@
 
 document.getElementById("play-button").onclick = function(){
     window.open("game.html","_self");
+    localStorage.setItem("Score",0);
 }
